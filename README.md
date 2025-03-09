@@ -50,30 +50,3 @@ jupyter notebook TP_ANAD_git.ipynb
 ## 📜 License
 This project is open-source and available under the [MIT License](LICENSE).
 ```
-
-### Steps to Push to GitHub:
-1. **Initialize Git Repository** (inside the project folder):
-   ```bash
-   git init
-   ```
-2. **Add the files**:
-   ```bash
-   git add .
-   ```
-3. **Commit the changes**:
-   ```bash
-   git commit -m "Initial commit - Diamond price analysis with PCA"
-   ```
-4. **Create a new GitHub repository**:
-   - Go to GitHub and create a repository named **Diamond-Price-Analysis-ACP**.
-   - Copy the repository URL.
-
-5. **Link the local repository to GitHub**:
-   ```bash
-   git remote add origin https://github.com/your-username/Diamond-Price-Analysis-ACP.git
-   ```
-6. **Push to GitHub**:
-   ```bash
-   git branch -M main
-   git push -u origin main
-   ```
